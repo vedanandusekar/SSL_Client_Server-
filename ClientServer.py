@@ -6,6 +6,9 @@ def file_read(x): #to read file
         f.close()
         return msg
 
+
+
+
 def file_append(y, z): #to add data to file
         t=open(y,"a")
         t.write(z)
